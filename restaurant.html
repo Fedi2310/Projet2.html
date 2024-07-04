@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dma9</title>
+    <link rel="icon" href="téléchargement.png">
+</head>
+
+<body>
+    <header>
+        
+        <h1>Delicious bite menu</h1>
+        <nav>        
+            <a href="#Appetizers">Appetizers</a>
+            <a href="#Main courses">Main Courses</a>
+            <a href="#Desserts">Desserts</a>
+            <a href="#Drinks">Drinks</a>
+        </nav>
+
+        <footer>
+            <p id="datetime"></p>
+      
+      <script>
+        // Get current date and time
+        var now = new Date();
+        var datetime = now.toLocaleString();
+      
+        // Insert date and time into HTML
+        document.getElementById("datetime").innerHTML = datetime;
+      </script>
+    </header>
+    <main>
+        <section id="Appetizers">
+            <h2>Appetizers</h2>
+            <p>you can choose between:</p>
+            <ul>
+                <li>soupe</li>
+            </ul>
+            <img src="hsou-des-oasis-ou-soupe-a-la-semoule--md-138841p208502.jpg " alt="not found">
+            <br>
+    
+            <ul>
+                <li>chorba tunisienne</li>
+            </ul>
+            <img src="i109-chorba-algerienne.jpeg" alt="not found">
+            <br>
+            <fieldset>
+                <legend>Choose yours:</legend>
+              
+                <div>
+                  <input type="checkbox" id="chorba" name="chorba" checked />
+                  <label for="chorba">Schorba</label>
+                </div>
+              
+                <div>
+                  <input type="checkbox" id="soupe" name="soupe" />
+                  <label for="soupe">soupe</label>
+                </div>
+              </fieldset>
+              <ol type="I">
+                <li>
+                    <h4>brika</h4>
+                    <img src="birck-0906417-4.jpg" alt="not found">
+                </li>
+                <li>
+                    <h4>tajin</h4>
+                    <img src="i146454-tajine-tunisien-sans-viande.jpeg" alt="not found">
+                </li>
+    
+              </ol>
+              
+              
+             
+              <br>
+              <fieldset>
+                <legend>Choose yours:</legend>
+              
+                <div>
+                  <input type="checkbox" id="tajin" name="tajin" checked />
+                  <label for="tajin">tajin</label>
+                </div>
+              
+                <div>
+                  <input type="checkbox" id="brika" name="brika" />
+                  <label for="brika">brika</label>
+                </div>
+              </fieldset>
+        </section>
+        
+        <section id="Main courses">
+            <h2>Main courses</h2>
+            <p>you can choose between</p>
+            <ul>
+                <li>
+                    <h4>kosksi</h4>
+                    <img src="tunisian-couscous-02.jpg" alt="not found">
+                    <br>
+    
+                    <fieldset>
+                        <legend>ingriediens:</legend>
+                      
+                        <div>
+                          <input type="checkbox" id="koskos" name="koskos" checked />
+                          <label for="koskos">koskos</label>
+                        </div>
+                      
+                        <div>
+                          <input type="checkbox" id="batata" name="batata" />
+                          <label for="batata">batata</label>
+                        </div>
+    
+                        <div>
+                            <input type="checkbox" id="felfel" name="felfel" />
+                            <label for="felfel">felfel</label>
+                          </div>
+    
+                          <div>
+                            <input type="checkbox" id="9raa3" name="9ra3" />
+                            <label for="9ra3">9ra3</label>
+                          </div>
+    
+                      </fieldset>
+                      
+    
+                    </li>
+                <li>
+                    <h4> pizza</h4>
+                    <img src="recette-pizza-4-saisons.jpg" alt="not found">
+                </li>
+                <label for="ingrediens-select">Choose ingrediens:</label>
+    
+    <select name="pizza" id="ingrediens">
+      <option value="">--Please choose an option--</option>
+      <option value="cheese">cheese</option>
+      <option value="tomato">tomato</option>
+      <option value="peperoni">peperoni</option>
+      <option value="chedar">chedar</option>
+      <option value="champingon">champingon</option>
+      <option value="zitoun">zitoun</option>
+    </select>
+                <li>
+                    <h4>ma9rouna</h4>
+                    <img src="maxresdefault.jpg" alt="not found">
+                </li>
+                <li>
+                    <h4> s7an tounsi</h4>
+                    <img src="hq720.jpg" alt="not found">
+                    <fieldset>
+                        <legend>Choose your features:</legend>
+                      
+                        <div>
+                          <input type="checkbox" id="frites" name="frites" checked />
+                          <label for="frites">frites</label>
+                        </div>
+                      
+                        <div>
+                          <input type="checkbox" id="escalope" name="escalope" />
+                          <label for="escalope">escalope</label>
+                        </div>
+                        
+                        <div>
+                            <input type="checkbox" id="3adhma mrawba" name="3adhma mrawba" />
+                            <label for="3adhma mrawba">3adhma mrawba</label>
+                          </div>
+    
+                          <div>
+                            <input type="checkbox" id="merguez" name="merguez" />
+                            <label for="merguez">merguez</label>
+                          </div>
+    
+                          <div>
+                            <input type="checkbox" id="felfel" name="felfel" />
+                            <label for="felfel">felfel</label>
+                          </div>
+                      </fieldset>
+                </li>
+            </ul>
+    
+        </section>
+        <h2>Desserts</h2>
+        <section id="Desserts">
+                        <p>you can choose between: </p>
+                        <ol type="A">
+                            <li>
+                                <h4>zgougou</h4>
+                                <img src="Zgougou-1.jpg" alt="not found">
+                            </li>
+                            <li>
+                                <h4>new york rolls</h4>
+                                <img src="New-york-roll_Blog_mise_en_avant-1440x935.jpg" alt="not found">
+                            </li>
+                            <li>
+                                <h4>san sebastian</h4>
+                                <img src="san-sebastian-cheesecake-burnt-basque-cheesecake_5127.jpg" alt="not found">
+                            </li>
+                
+                          </ol>
+                         <label for="desserts">Choose one:</label>
+    
+                                <select name="desserts" id="desserts-select">
+                                <option value="">--Please choose an option--</option>
+                                <option value="san sebastian">san sebastian</option>
+                                <option value="zgougou">zgougou</option>
+                                <option value="new york rolls">new york rolls</option>
+    
+                                </select>
+        </section>
+                      <h2>Drinks</h2>
+                      <section id="Drinks">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, dignissimos quisquam placeat pariatur sequi facere laborum necessitatibus obcaecati voluptatibus ratione harum veniam omnis repudiandae, natus aliquam quo corporis repellendus vitae?</p>
+                        <div class="drink">
+                            <h4>Cafés</h4>
+    
+                            <ul>
+                                <li>Espresso</li>
+                                <li>Macchiato</li>
+                                <li>Café au lait</li>
+                            </ul>
+                        </div>
+                    
+                        <div class="drink">
+                            <h4>Thés</h4>
+                            <ul>
+                                <li>Thé vert</li>
+                                <li>Thé noir</li>
+                                <li>Thé à la menthe</li>
+                            </ul>
+                        </div>
+                    
+                        <div class="drink">
+                            <h4>Jus</h4>
+                            <ul>
+                                <li>Jus d'orange</li>
+                                <li>Jus de pomme</li>
+                                <li>Jus de raisin</li>
+                            </ul>
+                        </div>
+                      </section>
+                
+    </main>
+    <br>
+    <a href="#top">Hezni l top</a>
+    <footer>
+        <p>&copy; 2024 MonSiteWeb. Tous droits réservés.</p>
+        <nav>
+            <ul>
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#">À propos</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
